@@ -4,7 +4,7 @@
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <fcntl.h>
-#include "../get_next_line/get_next_line.h"
+#include "../get_next_line.h"
 
 int main(int ac, char **av)
 {
