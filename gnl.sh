@@ -2,9 +2,9 @@
 echo ""
 echo "|------------------Partie obligatoire------------------|"
 echo ""
-G="../get_next_line/get_next_line.c"
-GH="../get_next_line/get_next_line.h"
-GU="../get_next_line/get_next_line_utils.c"
+G="../get_next_line.c"
+GH="../get_next_line.h"
+GU="../get_next_line_utils.c"
 if [ -f $G ];then
 	echo "Nom fichier : get_next_line.c  .................... OK"
 else
@@ -123,9 +123,9 @@ echo ""
 echo "|---------------------Partie bonus---------------------|"
 echo ""
 
-Gb="../get_next_line/get_next_line_bonus.c"
-GHb="../get_next_line/get_next_line_bonus.h"
-GUb="../get_next_line/get_next_line_utils_bonus.c"
+Gb="../get_next_line_bonus.c"
+GHb="../get_next_line_bonus.h"
+GUb="../get_next_line_utils_bonus.c"
 if [ -f $Gb ];then
 	if [ -f $Gb ];then
 		echo "Nom fichier : get_next_line_bonus.c  .............. OK"
