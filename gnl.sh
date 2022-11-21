@@ -224,10 +224,6 @@ if [ -f $Gb ];then
 else
 	echo "Pas de fichier get_next_line_bonus"
 fi
-rm -f difference.txt
-rm -f attendu
-rm -f rendu
-rm -f test1
-rm -f test2
-
 echo ""
+rm -fr difference.txt attendu rendu test1 test2 main* tester*  gnl* ./a.out 
+rm -fr 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15
