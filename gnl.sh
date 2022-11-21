@@ -40,7 +40,7 @@ echo ""
 
 
 rm -f norminette.txt
-norminette ../get_next_line/ > norminette.txt
+norminette ../get*/ > norminette.txt
 if [ $(grep "Error!" norminette.txt | wc -l) -eq 0 ];then
 	echo "Norminette ......................................... OK"
 else
